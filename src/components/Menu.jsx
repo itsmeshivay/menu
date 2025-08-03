@@ -4,7 +4,7 @@ const Menu = () => {
   const [menuItems, setMenuItems] = useState([]);
 
   useEffect(() => {
-    fetch('menu.json')
+    fetch('/menu/menu.json')
       .then(res => res.json())
       .then(data => setMenuItems(data))
       .catch(err => console.error('Failed to load menu.json:', err));
