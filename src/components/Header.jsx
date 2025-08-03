@@ -5,7 +5,7 @@ const Header = () => {
       <button className="signup">Signup</button>
       <button className="login">Login</button>
       <div>
-       <img src="./logo.jpg" alt="Restaurant Logo" id="header-logo" /> {/* ✅ works for both local and online images */}
+       <img src="logo.jpg" alt="Restaurant Logo" id="header-logo" /> {/* ✅ works for both local and online images */}
       </div>
     </div>
   );

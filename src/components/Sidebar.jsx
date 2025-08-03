@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="logo">
-       <img src="/logo.jpg" alt="Logo" />
+       <img src="logo.jpg" alt="Logo" />
       </div>
       <div className="sidebar-header">
         <h2 >Your Restaurant Menu</h2>
